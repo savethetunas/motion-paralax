@@ -7,8 +7,8 @@ def sky(gui):
 
 
 def sun(gui):
-    x = gui.mouse_x / 70 + 600
-    y = gui.mouse_y / 70 + 150
+    x = gui.mouse_x / 50 + 600
+    y = gui.mouse_y / 50 + 150
     gui.ellipse(x - 50, y - 50, 100, 100, 'yellow')
 
 
